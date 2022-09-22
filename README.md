@@ -1,11 +1,9 @@
 # 绘制不规则三维地形图+剖面图
+![map](https://user-images.githubusercontent.com/46471079/191707857-2d2a6055-0c5b-4deb-ade8-e2d3314ecbb2.png)
 ## 主要思路
 * 1.构造三维不规则体（可能有更好的办法，如果自己能做可以不用我这个办法）
 * 利用grdmask划出所需要的区域grd，并赋特定值（假设2000）
 * 将区域所有2000值对应的xy坐标提取出来，并利用grdtrack联合所需要画的grd文件给这些坐标赋真实值z，其他区域坐标的值这是NaN
 * 由xyz文件转换为需要作图的网格文件
-*
 * 2.提供需要附在三维坐标的2d文件
-*
 * 3.先画三维图，再将二维文件附上即可
-![map](https://user-images.githubusercontent.com/46471079/191707857-2d2a6055-0c5b-4deb-ade8-e2d3314ecbb2.png)
