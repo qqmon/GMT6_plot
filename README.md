@@ -8,3 +8,4 @@
 * 2.提供需要附在三维坐标的2d文件
 *
 * 3.先画三维图，再将二维文件附上即可
+![map](https://user-images.githubusercontent.com/46471079/191707857-2d2a6055-0c5b-4deb-ade8-e2d3314ecbb2.png)
